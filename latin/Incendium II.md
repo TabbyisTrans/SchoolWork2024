@@ -1,0 +1,3 @@
+# Incendium II
+
+It has occured in my mind to establish a fire brigade among the Nicomedians, just as it has been done in the other provinces. But it is important for us to remember that other cities have been harassed by groups like this in the province. Whatever people we assemble for this group will soon become a political club. Whatever people are assembled for this will be helpful, therefore, we should get the things that will be helpful in putting out fires. You should also tell the masters of the properties that are having a fire they need to put it out, and if its too bad, they should ask for others help. 
