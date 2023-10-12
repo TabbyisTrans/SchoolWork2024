@@ -2,10 +2,18 @@
 
 ## Questions
 
+### Homework Questions
+
 1. By boat
 2. He was traveling by vehicle
 3. He had gotten a fever
 4. He traveled by sea again
+
+### Review Questions
+
+1. Very serious
+2. He had been sick from the heat.
+3. He expresses urgency at the end of the letter, the work he did was emphasized at the beginning, and he said it was more and more necessary.
 
 ## Translation
 
