@@ -28,13 +28,13 @@ A copy of closed captions from news reports used in investigation of possible su
 
 **Anchor:** Also tonight, an interview with the missing hikers from the Adirondacks, we are live from the local hospital for an interview with the three missing people, take it away!
 
-**Reporter:** Thank you, tonight I'm here with _____, _____,  and _____, and I think the question on everyone's mind is what happened over the past couple of days? Where have you been?
+**Reporter:** Thank you, tonight I'm here with victim 1, victim 2,  and victim 2, and I think the question on everyone's mind is what happened over the past couple of days? Where have you been?
 
-**_____:** Honestly I don't even remember, it was like we were walking on a trail together, and then everything went white, and I woke up back in the same place, none of us even knew what happened, and we just headed back like normal and the rangers said they have been looking for us for days! We don't even know what happened!
+**victim 1:** Honestly I don't even remember, it was like we were walking on a trail together, and then everything went white, and I woke up back in the same place, none of us even knew what happened, and we just headed back like normal and the rangers said they have been looking for us for days! We don't even know what happened!
 
 **Reporter:** Do you have any idea what could have happened?!
 
-**_____:** Honestly it could be anything! Maybe aliens are real? Seems like we will never know!
+**victim 2:** Honestly it could be anything! Maybe aliens are real? Seems like we will never know!
 
 **Reporter:** And there you have it! A narrative full of twitsts and turns, but were all glad to see everyone ended up unharmed!
 
