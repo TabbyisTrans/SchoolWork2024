@@ -12,7 +12,6 @@ public class MadLibs {
         System.out.println("Enter a: " + wordToReplace);// asks the user to input the new word
         String input = sc.nextLine(); // grabs the input
         String completed = str.substring(0, index1) + input; // makes a new string with the start of the word up to the
-                                                             // new word, adding the new word
         System.out.println(completed); // shows the sentence so far
 
         int startIndex = index2 + 1;
