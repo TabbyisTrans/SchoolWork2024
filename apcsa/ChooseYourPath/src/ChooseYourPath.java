@@ -20,7 +20,7 @@ public class ChooseYourPath
             input = sc.nextLine();
             if (input.equals("C")) 
             {
-                System.out.println("A noxial gas has seeped up from the cave, you die!");
+                System.out.println("A noxious gas has seeped up from the cave, you die!");
             }
             else if (input.equals("T"))
             {
