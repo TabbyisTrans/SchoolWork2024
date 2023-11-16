@@ -82,7 +82,7 @@ public class ChooseYourPath
             input = sc.nextLine();
             if (input.equals("I"))
             {
-                System.out.println("The cavern colappses, you die!");
+                System.out.println("The cavern collapses, you die!");
             }
             else if (input.equals("R"))
             {
