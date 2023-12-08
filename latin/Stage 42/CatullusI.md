@@ -22,15 +22,15 @@ I chose lines 2 - 6 as my favorite lines in the poem. Catullus describes so many
 
 * Chiasmus: 5
 
-* Assonance: 2
+* Assonance: 2, 11
 
-* Hyperbole: 6,7
+* Hyperbole: 6,7 & 12
 
-* Tricolon: 6,7
+* Tricolon: 6,7 & 10-11
 
 * Allusion - 11 - Catullus references the Estruscans as they were believed to clean their teeth with urine.
 
-## Questions
+#### Homework Questions
 
 1. He believes it is because of his teeth being so white.
 
