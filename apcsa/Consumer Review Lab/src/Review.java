@@ -3,6 +3,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.ArrayList;
 
+
 /**
  * Class that contains helper methods for the Review Lab
  **/
@@ -11,7 +12,7 @@ public class Review {
   private static HashMap<String, Double> sentiment = new HashMap<String, Double>();
   private static ArrayList<String> posAdjectives = new ArrayList<String>();
   private static ArrayList<String> negAdjectives = new ArrayList<String>();
-  
+
   static{
     try {
       Scanner input = new Scanner(new File("src/cleanSentiment.csv"));
@@ -27,7 +28,7 @@ public class Review {
     }
   
   
-  //read in the positive adjectives in postiveAdjectives.txt
+  //read in the positive adjectives in positiveAdjectives.txt
      try {
       Scanner input = new Scanner(new File("src/negativeAdjectives.txt"));
       while(input.hasNextLine()){
@@ -36,7 +37,7 @@ public class Review {
       input.close();
     }
     catch(Exception e){
-      System.out.println("Error reading or parsing postitiveAdjectives.txt\n" + e);
+      System.out.println("Error reading or parsing positiveAdjectives.txt\n" + e);
     }   
  
   //read in the negative adjectives in negativeAdjectives.txt
@@ -153,6 +154,58 @@ public class Review {
       return randomPositiveAdj();
     } else {
       return randomNegativeAdj();
+    }
+  }
+
+  public static double totalSentiment(String review)
+  {
+    double num = 0;
+    String word = ""; 
+    int index = 0;
+    
+    while (review.length() > 0)
+    {
+      review = Review.removePunctuation(review);
+      index = review.indexOf(" ");
+      if (index != -1)
+      {
+      word = review.substring(0, index);
+      word = Review.removePunctuation(word);
+      review = review.substring(index);
+      }
+      else
+      {
+        word = review;
+        review = "";
+      }
+      num += Review.sentimentVal(word);
+    }
+    
+    return num;
+  }
+
+  public static String rateReview(String review)
+  {
+    double score = Review.totalSentiment(review);
+    if (score >= 5)
+    {
+    return "*****";
+    }
+    else if (score >= 2.5)
+    {
+      return "****";
+    }
+    else if (score > -2.5 && score < 2.5)
+    {
+       return "***";
+    }
+    else if (score <= -2.5 && score > -5)
+    {
+      return "**";
+    }
+    else
+    {
+      return "*";
     }
   }
 }
