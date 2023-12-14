@@ -203,13 +203,13 @@ public class Review {
       if (word.indexOf("*") != -1) {
         String punctuation = Review.getPunctuation(word);
         String randomAdjective = Review.randomAdjective();
-        fakeReview += randomAdjective + punctuation;
+        fakeReview += randomAdjective + punctuation + " ";
       }
       if (word.indexOf("*") == -1) {
-        fakeReview += word;
+        fakeReview += word +" ";
       }
       if (templateReview.indexOf(" ") != -1) {
-        templateReview = templateReview.substring(index);
+        templateReview = templateReview.substring(index + 1);
       } else
         templateReview = "";
     }
