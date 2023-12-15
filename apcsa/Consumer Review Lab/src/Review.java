@@ -197,9 +197,6 @@ public class Review {
       {
         word = templateReview;
       }
-
-      System.out.println(word);
-
       if (word.indexOf("*") != -1) {
         String punctuation = Review.getPunctuation(word);
         String randomAdjective = Review.randomAdjective();
@@ -215,4 +212,62 @@ public class Review {
     }
     return fakeReview;
   }
+
+  public static String fakeReviewStrong(String fileName) {
+    String templateReview = Review.textToString(fileName);
+    String fakeReview = "";
+    String fakeWord = "";
+    Double wordVal = 0.0;
+
+    while (templateReview.length() > 0) {
+      String word = "";
+      int index = templateReview.indexOf(" ");
+
+      if (index != -1) 
+      {
+        word = templateReview.substring(0, index);
+      } 
+      else 
+      {
+        word = templateReview;
+      }
+      if (word.indexOf("*") != -1) {
+        String punctuation = Review.getPunctuation(word);
+        word = Review.removePunctuation(word);
+        System.out.println(word);
+        wordVal = Review.sentimentVal(word);
+        System.out.println(wordVal);
+        System.out.println(wordVal >= 0);
+        if (wordVal >= 0.0)
+        {
+          while (wordVal >= Review.sentimentVal(fakeWord))
+          {
+            fakeWord = Review.randomPositiveAdj();
+            System.out.println(fakeWord);
+          }
+        }
+      else if (wordVal < 0)
+        {
+          while (wordVal < Review.sentimentVal(fakeWord))
+          {
+            fakeWord = Review.randomNegativeAdj();
+            System.out.println(fakeWord);
+          }
+        }
+        System.out.println("Final: " + fakeWord);
+        fakeReview += fakeWord + punctuation + " ";
+        fakeWord = "";
+      }
+      else {
+        fakeReview += word +" ";
+      }
+      if (templateReview.indexOf(" ") != -1) {
+        templateReview = templateReview.substring(index + 1);
+      } else
+        templateReview = "";
+    }
+    return fakeReview;
+  }
+
+
 }
