@@ -234,16 +234,16 @@ public class Review {
       if (word.indexOf("*") != -1) {
         String punctuation = Review.getPunctuation(word);
         word = Review.removePunctuation(word);
-        System.out.println(word);
+        //System.out.println(word);
         wordVal = Review.sentimentVal(word);
-        System.out.println(wordVal);
-        System.out.println(wordVal >= 0);
+        //System.out.println(wordVal);
+        //System.out.println(wordVal >= 0);
         if (wordVal >= 0.0)
         {
           while (wordVal >= Review.sentimentVal(fakeWord))
           {
             fakeWord = Review.randomPositiveAdj();
-            System.out.println(fakeWord);
+            //System.out.println(fakeWord);
           }
         }
       else if (wordVal < 0)
@@ -251,10 +251,10 @@ public class Review {
           while (wordVal < Review.sentimentVal(fakeWord))
           {
             fakeWord = Review.randomNegativeAdj();
-            System.out.println(fakeWord);
+            //System.out.println(fakeWord);
           }
         }
-        System.out.println("Final: " + fakeWord);
+        //System.out.println("Final: " + fakeWord);
         fakeReview += fakeWord + punctuation + " ";
         fakeWord = "";
       }
