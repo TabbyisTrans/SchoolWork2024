@@ -32,11 +32,17 @@ public class Player {
     System.out.println("Hello and welcome to the game, " + name);
   }
 
-  public String getName() { /* incomplete  */}
+  public String getName() 
+  {
+    return name;
+  }
 
   public void setName(String inputName) {/* incomplete */}
 
-  public int getPoints() { /* incomplete */}
+  public int getPoints() 
+  {
+    return points;
+  }
 
   public void addToPoints(int value) { /* incomplete */}
   /* your code here - accessor(s) */

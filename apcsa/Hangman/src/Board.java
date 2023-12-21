@@ -17,11 +17,24 @@ public class Board {
     solvedPhrase = "";
     phrase = loadPhrase();
     setLetterValue();
-    System.out.println("phrase: " + phrase);
   }
 
   /* your code here - accessor(s) */
 
+  public String getPhrase()
+  {
+    return phrase;
+  }
+
+  public String getSolvedPhrase()
+  {
+    return solvedPhrase;
+  }
+
+  public int getLetterValue()
+  {
+    return currentLetterValue;
+  }
   /* your code here - mutator(s) */
 
   /* ---------- provided code, do not modify ---------- */

@@ -1,1 +1,5 @@
-apcsa/Hangman/bin
+apcsa/Hangman/bin/.
+apcsa/Hangman/bin/Board.class
+apcsa/Hangman/bin/Board.class
+apcsa/Hangman/bin/PhraseSolver.class
+apcsa/Hangman/bin/Player.class

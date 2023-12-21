@@ -42,6 +42,13 @@ public class PhraseSolver {
       solved = true;
     }
 
+    System.out.println("Player1: " + player1.getName());
+    System.out.println("Player1 points: " + player1.getPoints());
+    System.out.println("Player2: " + player2.getName());
+    System.out.println("Player2 points: " + player2.getPoints());
+    System.out.println("Phrase: " + game.getPhrase());
+    System.out.println("Letter Value: " + game.getLetterValue());
+    System.out.println("Solved Phrase: " + game.getSolvedPhrase());
   }
 
 }
