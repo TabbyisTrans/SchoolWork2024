@@ -13,8 +13,7 @@ public class Board {
 
   /* your code here - constructor(s) */
 
-  public Board()
-  {
+  public Board() {
     solvedPhrase = "";
     phrase = loadPhrase();
     setLetterValue();
@@ -78,7 +77,13 @@ public class Board {
 
     return tempPhrase;
   }
-
+  /* Checks the guess inputed into the method
+   * 
+   * Preconditions:
+   * A letter in string guess
+   * Post conditions:
+   * returns if the letter is found and updates solvedPhrase to show found letters.
+   */
   public boolean guessLetter(String guess) {
     boolean foundLetter = false;
     String newSolvedPhrase = "";
@@ -87,7 +92,13 @@ public class Board {
       if (phrase.substring(i, i + 1).equals(guess)) {
         newSolvedPhrase += guess + " ";
         foundLetter = true;
-      } else {
+      }
+      /*
+       * The guessed letter is not in the phrase so copy current underscore and space
+       * to the new solved phrase. i*2 is used because solvedPhrase is double in
+       * length due to added spaces
+       */
+      else {
         newSolvedPhrase += solvedPhrase.substring(i * 2, i * 2 + 1) + " ";
       }
     }

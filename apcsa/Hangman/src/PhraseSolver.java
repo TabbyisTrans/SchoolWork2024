@@ -17,9 +17,9 @@ public class PhraseSolver {
 
   public PhraseSolver()
   {
-    player1 = null;
-    player2 = null;
-    board = null;
+    player1 = new Player();
+    player2 = new Player();
+    game = new Board();
     solved = false;
   }
 

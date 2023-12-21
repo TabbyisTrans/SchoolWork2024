@@ -3,8 +3,11 @@
  *
  * The runner for the PhraseSolverGame
  */
-  public static void main(String[] args) 
+public class Runner
+{
+  public static void main(String[] args)   
   {
     PhraseSolver p = new PhraseSolver(); 
     p.play();
-  } 
+  }
+} 

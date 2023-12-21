@@ -19,7 +19,7 @@ public class Player {
     points = 0; 
     System.out.println("Enter Player Name: ");
     Scanner sc = new Scanner(System.in);
-    String newName = sc.nextLine;
+    String newName = sc.nextLine();
 
     name = newName;
     System.out.println("Hello and welcome to the game, " + name);
@@ -32,6 +32,13 @@ public class Player {
     System.out.println("Hello and welcome to the game, " + name);
   }
 
+  public String getName() { /* incomplete  */}
+
+  public void setName(String inputName) {/* incomplete */}
+
+  public int getPoints() { /* incomplete */}
+
+  public void addToPoints(int value) { /* incomplete */}
   /* your code here - accessor(s) */
 
   /* your code here - mutator(s) */
