@@ -37,14 +37,21 @@ public class Player {
     return name;
   }
 
-  public void setName(String inputName) {/* incomplete */}
+  public void setName(String inputName)
+  {
+    name = inputName;
+  } 
 
   public int getPoints() 
   {
     return points;
   }
 
-  public void addToPoints(int value) { /* incomplete */}
+  public void addToPoints(int value) 
+  {
+    points += value;
+  }
+
   /* your code here - accessor(s) */
 
   /* your code here - mutator(s) */
