@@ -13,6 +13,9 @@ public class Player {
 
   /* your code here - constructor(s) */
 
+  /**
+   * guides the players through creating a new player, and allows them to type in the name
+   */
   public Player() 
   {
     name = "";
@@ -24,29 +27,47 @@ public class Player {
     name = newName;
     System.out.println("Hello and welcome to the game, " + name);
   }
-
+  /**
+   *Creates a player with the name provided in inputName 
+   *@param String inputName 
+   */
   public Player(String inputName)
   {
-    name = newName;
+    name = inputName;
     points = 0;
     System.out.println("Hello and welcome to the game, " + name);
   }
-
+  /**
+   * Returns name of the player
+   *@return name
+   */
   public String getName() 
   {
     return name;
   }
 
+  /**
+   * Sets name to the string given
+   * @param String inputName
+   */
   public void setName(String inputName)
   {
     name = inputName;
   } 
 
+  /**
+   * provides the points for a character
+   * @return points
+   */
   public int getPoints() 
   {
     return points;
   }
 
+  /**
+   * adds the amount of points given to the players total
+   * @param int value
+   */
   public void addToPoints(int value) 
   {
     points += value;

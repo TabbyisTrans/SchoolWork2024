@@ -20,17 +20,28 @@ public class Board {
   }
 
   /* your code here - accessor(s) */
-
+  /**
+   * returns the current phrase
+   * @return String phrase
+   */
   public String getPhrase()
   {
     return phrase;
   }
 
+  /**
+   * returns current board
+   * @return String solvedPhrase
+   */
   public String getSolvedPhrase()
   {
     return solvedPhrase;
   }
 
+  /**
+   * returns the current letter value
+   * @return int currentLetterValue
+   */
   public int getLetterValue()
   {
     return currentLetterValue;
@@ -38,18 +49,29 @@ public class Board {
   /* your code here - mutator(s) */
 
   /* ---------- provided code, do not modify ---------- */
+  /**
+   * sets random letter value
+   */
   public void setLetterValue() {
     int randomInt = (int) ((Math.random() * 10) + 1) * 100;
     currentLetterValue = randomInt;
   }
-
+  /**
+   * checks if the phrase is solved
+   * @param String guess
+   * @return true or false
+   */
   public boolean isSolved(String guess) {
     if (phrase.equals(guess)) {
       return true;
     }
     return false;
   }
-
+  
+  /**
+   * loads a random phrase
+   * @return random
+ printe   */
   private String loadPhrase() {
     String tempPhrase = "";
 
