@@ -2,38 +2,38 @@
 
 ## Definitions
 
-* Lurched - sudden unsteady movement
+* Lurched verb - sudden unsteady movement
 
-* Sporadic - occuring at random times
+* Sporadic adj - occuring at random times
 
-* punctilious - showing great attention to detail or correct behavior
+* punctilious adj - showing great attention to detail or correct behavior
 
-* Proprietor - the owner of a business, or owneer of a property
+* Proprietor noun - the owner of a business, or owneer of a property
 
-* Discerning - having or showing good judgement
+* Discerning adj - having or showing good judgement
 
-* Abstraction - dealing with ideas rather than events
+* Abstraction noun - an unrealistic thought
 
-* Reproachfully - expressing disapproval or disappointment
+* Reproachfully adj - expressing disapproval or disappointment
 
-* Scrutinize - examine or inspect thoroughly
+* Scrutinize verb - examine or inspect thoroughly
 
-* Harrowed - cause distress to
+* Harrowed verb - cause distress to
 
-* Endured - continued for a long time
+* Endured verb - continued for a long time
 
-* Defunct - no longer existing or functioning
+* Defunct adj - no longer existing or functioning
 
-* Nebolous - unclear
+* Nebolous adj - unclear
 
-* Laudable - deserving praise
+* Laudable adj - deserving praise / creditable
 
-* Insidious - treacherous, crafty
+* Insidious adj - sinister, sneaky, deceptive
 
-* Ineffable - to great or extreme to be talked about
+* Ineffable adj - to great or extreme to be talked about
 
 * Ramification - a consequence
 
-* Contingencies - a future circumstance
+* Contingencies - dependence on change or on the fufilment of a condition; uncertainty
 
 * Cordial - friendly
