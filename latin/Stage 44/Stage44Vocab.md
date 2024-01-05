@@ -13,5 +13,5 @@
 | studeo, studere, studui                    | study         | study, studio |
 | tellus, telluris, f.                       | earth         | ------------- |
 | una cum                                    | together with | ------------  |
-| uterque, utraque, utramque                 | bath          | ------------- |
+| uterque, utraque, utramque                 | both          | ------------- |
 | vinculum, vinculi, n.                      | chain         | ------------- |
