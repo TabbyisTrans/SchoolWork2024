@@ -15,7 +15,7 @@ public class MediaLib
   public String toString() 
   {
     String info = "";
-    
+    info = "Book: " + book; 
     return info;
   }
 }

@@ -48,4 +48,12 @@ public class Book
   public void setAuthor(String a) {
     author = a;
   }
+
+  public void adjustRating(int r)
+  {
+    if (rating + r >10 | rating + r < 10)
+    {
+    rating += r;
+    }
+  }
 }
