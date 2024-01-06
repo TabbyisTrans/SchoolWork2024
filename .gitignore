@@ -1,2 +1,5 @@
 apcsa/Hangman/bin/
 apcsa/Hangman/bin/Player.class
+[code]bin/
+OBJ/[/code]
+*.class
