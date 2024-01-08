@@ -18,4 +18,15 @@ public class MediaLib
     info = "Book: " + book; 
     return info;
   }
+
+  /**
+   * @param Book tester
+   */
+  void testBook(Book tester)
+  {
+    tester.setTitle("Animal Farm");
+    System.out.println(" in test: " + tester.getTitle());
+  }
+
+  
 }

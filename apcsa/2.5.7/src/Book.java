@@ -51,9 +51,18 @@ public class Book
 
   public void adjustRating(int r)
   {
-    if (rating + r >10 | rating + r < 10)
+    if (rating + r >=0 && rating + r <= 10)
     {
     rating += r;
     }
   }
+
+  public boolean equals(Book b)
+    {
+      if(this.title.equals(b.title) && this.author.equals(b.author))
+      {
+        return true;
+      }
+      else return false;
+    }
 }
