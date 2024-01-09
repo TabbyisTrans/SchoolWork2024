@@ -73,4 +73,3 @@
 * Cordial - friendly
 
 > The guests adressed the host cordially.
-
