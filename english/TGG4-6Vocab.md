@@ -2,38 +2,75 @@
 
 ## Definitions
 
-* Lurched verb - sudden unsteady movement
+* Lurched - sudden unsteady movement
 
-* Sporadic adj - occuring at random times
+> The old man lurched foward.
 
-* punctilious adj - showing great attention to detail or correct behavior
+* Sporadic - occuring at random times
 
-* Proprietor noun - the owner of a business, or owneer of a property
+> The broken streetlight was flashing sporadicly.
 
-* Discerning adj - having or showing good judgement
+* punctilious - showing great attention to detail or correct behavior
 
-* Abstraction noun - an unrealistic thought
+> The student completed their assingment punctiliously.
 
-* Reproachfully adj - expressing disapproval or disappointment
+* Proprietor - the owner of a business, or owneer of a property
 
-* Scrutinize verb - examine or inspect thoroughly
+> The proprietor of the land decided to sell the land.
 
-* Harrowed verb - cause distress to
+* Discerning - having or showing good judgement
 
-* Endured verb - continued for a long time
+> The dective looked at the scene of the crime discerningly.
 
-* Defunct adj - no longer existing or functioning
+* Abstraction - dealing with ideas rather than events
 
-* Nebolous adj - unclear
+> The teacher explained the new concept abstractly.
 
-* Laudable adj - deserving praise / creditable
+* Reproachfully - expressing disapproval or disappointment
 
-* Insidious adj - sinister, sneaky, deceptive
+> The parents scolded the child reproachfully.
 
-* Ineffable adj - to great or extreme to be talked about
+* Scrutinize - examine or inspect thoroughly
+
+> The teacher scrutinized the test.
+
+* Harrowed - cause distress to
+
+> The jury was harrowed by the retelling of the crime.
+
+* Endured - continued for a long time
+
+> The party endured through the night.
+
+* Defunct - no longer existing or functioning
+
+> The old store was now defunct.
+
+* Nebolous - unclear
+
+> His exact plans were quite nebulous.
+
+* Laudable - deserving praise
+
+> The students excelent grades were laudable.
+
+* Insidious - treacherous, crafty
+
+> The villain was extremely insidious.
+
+* Ineffable - to great or extreme to be talked about
+
+> His wealth was ineffable.
 
 * Ramification - a consequence
 
-* Contingencies - dependence on change or on the fufilment of a condition; uncertainty
+> The criminal was to experience extreme ramification.
+
+* Contingencies - a future circumstance
+
+> The company had contingincies to keep their service online in case of emergency.
 
 * Cordial - friendly
+
+> The guests adressed the host cordially.
+
