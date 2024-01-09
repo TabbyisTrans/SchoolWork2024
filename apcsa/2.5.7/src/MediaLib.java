@@ -6,16 +6,23 @@
 public class MediaLib
 {
   private Book book;
+  private Movie movie;
 
   public void addBook(Book b)
   {
     book = b;
   }
 
+  public void addMovie(Movie b)
+  {
+    movie = b;
+  }
+
   public String toString() 
   {
     String info = "";
-    info = "Book: " + book; 
+    info += "Book: " + book + "\n"; 
+    info += "Movie: " + movie;
     return info;
   }
 
@@ -27,6 +34,4 @@ public class MediaLib
     tester.setTitle("Animal Farm");
     System.out.println(" in test: " + tester.getTitle());
   }
-
-  
 }
