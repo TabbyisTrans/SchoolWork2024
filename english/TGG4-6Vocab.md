@@ -6,35 +6,35 @@
 
 > The old man lurched foward.
 
-* Sporadic - occuring at random times
+* **Sporadic** - occuring at random times
 
 > The broken streetlight was flashing sporadicly.
 
-* punctilious - showing great attention to detail or correct behavior
+* **punctilious** - showing great attention to detail or correct behavior
 
 > The student completed their assingment punctiliously.
 
-* Proprietor - the owner of a business, or owneer of a property
+* **Proprietor** - the owner of a business, or owneer of a property
 
 > The proprietor of the land decided to sell the land.
 
-* Discerning - having or showing good judgement
+* **Discerning** - having or showing good judgement
 
 > The dective looked at the scene of the crime discerningly.
 
-* Abstraction - dealing with ideas rather than events
+* **Abstraction** - dealing with ideas rather than events
 
 > The teacher explained the new concept abstractly.
 
-* Reproachfully - expressing disapproval or disappointment
+* **Reproachfully** - expressing disapproval or disappointment
 
 > The parents scolded the child reproachfully.
 
-* Scrutinize - examine or inspect thoroughly
+* **Scrutinize** - examine or inspect thoroughly
 
 > The teacher scrutinized the test.
 
-* Harrowed - cause distress to
+* **Harrowed** - cause distress to
 
 > The jury was harrowed by the retelling of the crime.
 
@@ -46,7 +46,7 @@
 
 > The old store was now defunct.
 
-* Nebolous - unclear
+* **Nebolous** - unclear
 
 > His exact plans were quite nebulous.
 
@@ -54,7 +54,7 @@
 
 > The students excelent grades were laudable.
 
-* Insidious - treacherous, crafty
+* **Insidious** - treacherous, crafty
 
 > The villain was extremely insidious.
 
@@ -62,7 +62,7 @@
 
 > His wealth was ineffable.
 
-* Ramification - a consequence
+* **Ramification** - a consequence
 
 > The criminal was to experience extreme ramification.
 
@@ -70,6 +70,6 @@
 
 > The company had contingincies to keep their service online in case of emergency.
 
-* Cordial - friendly
+* **Cordial** - friendly
 
 > The guests adressed the host cordially.
