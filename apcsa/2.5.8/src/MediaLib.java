@@ -7,6 +7,7 @@ public class MediaLib
 {
   private Book book;
   private Movie movie;
+  private Song song;
   public static String owner = "PLTW";
   private static int numEntries;
 
@@ -22,11 +23,18 @@ public class MediaLib
     numEntries += 1;
   }
 
+  public void addSong(Song b)
+  {
+    song = b;
+    numEntries += 1;
+  }
+
   public String toString() 
   {
     String info = "";
     info += "Book: " + book + "\n"; 
-    info += "Movie: " + movie;
+    info += "Movie: " + movie +"\n";
+    info += "Song: " + song;
     return info;
   }
 
@@ -52,7 +60,7 @@ public class MediaLib
   public static int getNumEntries()
   {
     //test
-    System.out.println("Test: Owner is " + owner);
+    //System.out.println("Test: Owner is " + owner);
     return numEntries;
   }
 }

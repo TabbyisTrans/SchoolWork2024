@@ -17,5 +17,12 @@ public class MediaLibRunner
     System.out.println("Library 1: \n" + myLib + "\n");
     System.out.println("Library 2: \n" + myLib2 + "\n");
     System.out.println("Number of entries after: " + MediaLib.getNumEntries());
+
+    System.out.println( "\n");
+
+    Song mySong = new Song("Goosebumps");
+    myLib.addSong(mySong);
+    System.out.println(myLib);
+
   }
 }
