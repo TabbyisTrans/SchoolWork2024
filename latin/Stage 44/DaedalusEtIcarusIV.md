@@ -13,3 +13,9 @@ During his work and his instructions, his cheeks became wet, and the hands of th
 3. A bird
 
 4. Someone had saw him, either a fisherman, a plowman, or a shepard, they thought they were gods since they were flying.
+
+5. He was worried for his son after his nephew had died.
+
+6. Not only are they literally flying, Daedalus is trying to protect his son.
+
+7. Yes, he calls flying "the damned arts"
