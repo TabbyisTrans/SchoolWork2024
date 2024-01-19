@@ -40,5 +40,19 @@ public class MediaLibRunner {
     //System.out.println("before test:" + newBook);
     //myLib.testBook(newBook);
     //System.out.println("after test:" + newBook);
+
+    // question 25
+    Book newBook2 = new Book("1984", "Orwell");
+    System.out.println(newBook2 +" equal: " + newBook + "? " + newBook2.equals(newBook));
+    newBook2.setAuthor("George Orwell");
+    System.out.println(newBook2 +" equal: " + newBook + "? " + newBook2.equals(newBook));
+
+    // question 30
+
+    Movie myMovie = new Movie("The Hunger Games", 1.5);
+    Movie myMovie2 = new Movie("The HUnger Games: Catching Fire", 1.5);
+    myLib.addMovie(myMovie);
+    System.out.println(myLib);
+    System.out.println(myMovie + "equal: " + myMovie2 + "? " + myMovie.equals(myMovie2));
   }
 }
