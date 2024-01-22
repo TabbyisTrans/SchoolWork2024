@@ -9,4 +9,4 @@ My collection of school work created with Markdown, with some java code for AP C
 
 > Reference to this work *must* include credit to Tabitha Relyea or other appropriate credit
 
-2024 School Work © 2023 by Tabitha Relyea is licensed under CC BY-NC 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
+2024 School Work © MMXXIII-MMXXIV by Tabitha Relyea is licensed under CC BY-NC 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/
