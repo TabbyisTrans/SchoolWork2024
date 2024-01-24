@@ -9,7 +9,7 @@
 | cupido, cupindinis, crevi                  | desire        | cupid         |
 | felix, gen. felicis                        | lucky         | felicity      |
 | licet, licere                              | be allowed    | illicit       |
-| paulatim                                   | gradually     |               |
+| paulatim                                   | gradually     | ------------- |
 | studeo, studere, studui                    | study         | study, studio |
 | tellus, telluris, f.                       | earth         | ------------- |
 | una cum                                    | together with | ------------  |
