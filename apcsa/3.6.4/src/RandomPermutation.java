@@ -26,13 +26,13 @@ public class RandomPermutation {
             r[rVal] = p[randomInt]; // stores random number
             rVal--; // decrement rVal
             p[(int)random] = p[i]; // swap p[i] with p[randomInt]
-            System.out.println("r: " + Arrays.toString(r));
-            System.out.println("p: " + Arrays.toString(p));
+            //System.out.println("r: " + Arrays.toString(r));
+            //System.out.println("p: " + Arrays.toString(p));
 
         }
         r[0] = p[0]; // stores last answer
-        //System.out.println("r: " + Arrays.toString(r));
-        //System.out.println("p: " + Arrays.toString(p));
+        System.out.println("r: " + Arrays.toString(r));
+        System.out.println("p: " + Arrays.toString(p));
 
     }
 }
