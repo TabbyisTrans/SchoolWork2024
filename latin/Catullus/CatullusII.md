@@ -6,7 +6,7 @@ Let us live, my Lesbia, and let us love, let us value all the gossip of strict o
 
 The suns are able to fall and return: when once the brief light sets for us, one perpetual night must be slept by us.
 
-Give to me a thousand kisses, then a hundred, the a thousand more, then a second hundred, then yet another thousand, the a hundred.
+Give to me a thousand kisses, then a hundred, the a thousand more, then a second hundred, then yet another thousand, then a hundred. Then when we have done many thousands we will lose count of them so that we will not know nor any one that is alive will be jealous, when he knows how much there are of kisses.
 
 ## Questions
 
