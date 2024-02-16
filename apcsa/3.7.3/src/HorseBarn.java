@@ -62,4 +62,31 @@ public class HorseBarn
   {
     return spaces;
   }
+
+  public int findHorseSpace(String name)
+  {
+    int index = -1;
+    for (int i=0; i < spaces.size(); i++)
+    {
+      Horse H = spaces.get(i);
+      if (spaces.get(i) != null & H.getName().equals(name))
+      {
+        index = i;
+      }
+    }
+    return index;
+  }
+
+  public void consolidate()
+  {
+    int i = 0;
+    while (i < spaces.size())
+    {
+      if (spaces.get(i) == null)
+      {
+        spaces.remove(i);
+      }
+      else i++;
+    }
+  }
 }
