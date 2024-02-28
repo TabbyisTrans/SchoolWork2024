@@ -18,6 +18,16 @@ public class App {
         arrList.add(1);
         arrList.add(3);
         arrList.add(2);
+
+        System.out.println("Frequency: " + freq());
+        System.out.println("Lowest: " + low());
+        System.out.println("Average: " + avg());
+        System.out.println("Contains 0: " + containsZero());
+        System.out.println("Swapped ArrayList: " + swap());
+        System.out.println("Sum: " + sum());
+        System.out.println("Mode: " + mode());
+        System.out.println("All Positive: " + allPositive());
+        System.out.println("Flipped ArrayList: " + flip());
     }
 
     public static int freq() {
@@ -91,19 +101,48 @@ public class App {
     }
 
     public static int mode() {
-        int mode = 0;
+        int modeNum = 0;
         int modeInd = 0;
         ArrayList<Integer> numCount = new ArrayList<Integer>();
         for (int i = 0; i < 10; i++) {
             numCount.add(0);
         }
-        for (int i = 0; i < arrList.size(); i++) {
-            numCount.set(i, numCount.get(i) + 1);
-            if (numCount.get(i) > mode) {
-                mode = numCount.get(i);
-                modeInd = i;
+        for (int i=0; i<arrList.size();i++)
+        {
+            numCount.set(arrList.get(i),numCount.get(arrList.get(i))+1);
+            if (numCount.get(arrList.get(i))>modeNum)
+            {
+                modeNum = numCount.get(arrList.get(i));
+                modeInd = arrList.get(i);
             }
         }
+        
         return modeInd;
+    }
+
+    /**
+     * A method to flip every pair of elements in an ArrayList of Integers.
+     *
+     * @param  arrList   the ArrayList of Integers to be flipped
+     * @return          void
+     */
+    public static ArrayList<Integer> flip()
+    {
+        for (int i=0; i < arrList.size();i+=2)
+        {
+            int store = arrList.get(i);
+            arrList.set(i,arrList.get(i+1));
+            arrList.set(i+1,store);
+        }
+        return arrList;
+    } 
+
+    public static boolean allPositive() {
+        for (int i: arrList) {
+            if (i <= 0) {
+                return false;
+            }
+        }
+        return true;
     }
 }
