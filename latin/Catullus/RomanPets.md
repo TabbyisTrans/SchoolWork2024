@@ -20,7 +20,7 @@ The sparrow, delight of my girl, with whom she is accustomed to play, and with w
 
 ### Part B
 
-Issa is naughtier than Catullus' Sparrow, Issa is more pure than the kiss of a dove, Issa is more charming than all the girls, Issa is more precious than the Indian Jewels, Issa is Publius' darling puppy. If she whines you will think that she is speaking; she feels sadness and joy, resting against his neck, she lies and takes her sleep, so that her breaths are not heard; so that her last light day not take her away entirely, in short, put Issa alongside the picture, Publius portrays her in a picture
+Issa is naughtier than Catullus' Sparrow, Issa is more pure than the kiss of a dove, Issa is more charming than all the girls, Issa is more precious than the Indian Jewels, Issa is Publius' darling puppy. If she whines you will think that she is speaking; she feels sadness and joy, resting against his neck, she lies and takes her sleep, so that her breaths are not heard; so that her last light day not take her away entirely, Publius portrays her in a picture that not even the dog herself is not so like herself. In short put Issa alongside the picture: either you will think that each is real, or you will think each is painted.
 
 #### Questions
 
@@ -33,3 +33,11 @@ Issa is naughtier than Catullus' Sparrow, Issa is more pure than the kiss of a d
 4. He makes the dog seem human by describing it feeling human emotions
 
 5. To remember the dog
+
+6. He cannot tell which one is the real dog.
+
+7. The painting lets Publius remember Issa.
+
+8. It seems to be more about art, it shows how art can help someone remember.
+
+9. Catullus and Martial both mention death, but Martials has a deeper meaning in the beauty of art.
