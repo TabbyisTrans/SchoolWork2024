@@ -65,13 +65,13 @@ public class HorseBarnRunner {
       if (barnSpaces.get(i) != null) {
         if (barnSpaces.get(i).getName().equals("Duke")) {
           barnSpaces.set(i, new Horse("Princess", 1445));
-          System.out.println("replaced duke");
+          //System.out.println("replaced duke");
         } else if (barnSpaces.get(i).getName().equals("Silver")) {
           barnSpaces.add(i + 1, new Horse("Chief", 1505));
           size++;
         } else if (barnSpaces.get(i).getName().equals("Buddy")) {
-          System.out.println("adding Gypsy and Magic");
-          System.out.println("Buddy index" + i);
+          //System.out.println("adding Gypsy and Magic");
+          //System.out.println("Buddy index" + i);
           barnSpaces.add(i, new Horse("Gypsy", 1335));
           barnSpaces.add(i + 2, new Horse("Magic", 1425));
           size += 2;
