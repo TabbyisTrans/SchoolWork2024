@@ -1,0 +1,6 @@
+Buddy,1340
+Thunder,1450
+Buttercup,1200
+Bandit,1390
+Silver,1210
+Duke,1410
