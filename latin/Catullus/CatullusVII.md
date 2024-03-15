@@ -18,3 +18,12 @@ endure with a stuborn mind, be strong.
 Goodbye, girl. Now Catullus is tough,
 And he will not seek you
 nor will he ask for the one thats unwilling.
+
+But you will mourn (to Lesbia), when you are not asked for.
+
+Wicked one, alas to you! What life remains for you?
+Who now will go to you? To whom will you see beautiful?
+Whom will you love now? Of whom will be said to be?
+Whom will you kiss? Whose lips will you bite?
+
+And you, Catullus, be stuborn.
