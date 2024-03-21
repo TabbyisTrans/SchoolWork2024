@@ -1,4 +1,4 @@
-# Lesbia VI
+# Catullus VI
 
 ## Translation
 
