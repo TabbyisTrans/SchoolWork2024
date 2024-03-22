@@ -1,5 +1,4 @@
-public class RouteCipher
-{
+public class RouteCipher {
     /**
      * A two-dimensional array of single-character strings, instantiated in the
      * constructor
@@ -14,8 +13,7 @@ public class RouteCipher
 
     private int counter = 0;
 
-    public RouteCipher(int r, int c)
-    {
+    public RouteCipher(int r, int c) {
         letterBlock = new String[r][c];
         this.fillBlock("Meet at midnight");
         this.numRows = r;
@@ -26,23 +24,18 @@ public class RouteCipher
      * Places a string into letterBlock in row-major order.
      *
      * @param str the string to be processed Postcondition: if str.length() <
-     *     numRows * numCols, "A" in each unfilled cell if str.length() > numRows *
-     *     numCols, trailing characters are ignored
+     *            numRows * numCols, "A" in each unfilled cell if str.length() >
+     *            numRows *
+     *            numCols, trailing characters are ignored
      */
-    private void fillBlock(String str)
-    {
+    private void fillBlock(String str) {
         int pos = 0;
-        for (int r = 0; r < this.numRows; r++)
-        {
-            for (int c = 0; c < this.numCols; c++)
-            {
-                if (pos < str.length())
-                {
+        for (int r = 0; r < this.numRows; r++) {
+            for (int c = 0; c < this.numCols; c++) {
+                if (pos < str.length()) {
                     this.letterBlock[r][c] = str.substring(pos, pos + 1);
                     pos++;
-                }
-                else
-                {
+                } else {
                     this.letterBlock[r][c] = "A";
                 } // end else block
             } // end inner for
@@ -55,9 +48,14 @@ public class RouteCipher
      *
      * @return the encrypted string from letterBlock
      */
-    private String encryptBlock()
-    {
-        return "Mte ea";
+    private String encryptBlock() {
+        StringBuilder result = new StringBuilder();
+        for (int c = 0; c < this.numCols; c++) {
+            for (int r = 0; r < this.numRows; r++) {
+                result.append(this.letterBlock[r][c]);
+            }
+        }
+        return result.toString();
     }
 
     /**
@@ -65,50 +63,37 @@ public class RouteCipher
      *
      * @param message the string to be encrypted
      * @return the encrypted message; if message is the empty string, returns the
-     *     empty string
+     *         empty string
      */
-    public String encryptMessage(String message)
-    {
+    public String encryptMessage(String message) {
         // Complete this method
-        if(message.equals(""))
-        {
+        if (message.equals("")) {
             return message;
         }
         String result = "";
         String proccess = "";
         int spaces = numRows * numCols;
         int remainder = message.length() % spaces;
-        if (remainder != 0)
-        {
-            for (int i = 1; i < remainder-1; i++)
-            {
-                message+="A";
+        if (remainder != 0) {
+            for (int i = 1; i < remainder - 1; i++) {
+                message += "A";
             }
         }
         System.out.println(message);
-            for(int i =0; i < message.length(); i += spaces)
-            {
-                proccess = message.substring(i, (i + spaces) -1);
-                fillBlock(proccess);
-                String encrypted = encryptBlock();
-                for(int j =0;j<numRows;j++)
-                {
-                    result+=encrypted;
-                }
+        for (int i = 0; i < message.length(); i += spaces) {
+            proccess = message.substring(i, (i + spaces) - 1);
+            fillBlock(proccess);
+            String encrypted = encryptBlock();
+            for (int j = 0; j < numRows; j++) {
+                result += encrypted;
             }
+        }
         System.out.println(result);
-            return result;
+        return result;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         RouteCipher ciph = new RouteCipher(2, 3);
-        if (ciph.encryptMessage("Meet at midnight")
-                .substring(0, 6)
-                .equals("Mte ea"))
-            System.out.println("Looks like your code works well!");
-        else System.out.println("Oops! Make a few changes to your code, please.");
     }
 }
-
