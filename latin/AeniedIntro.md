@@ -6,7 +6,7 @@
 
 2. The aeneid is an epic poem
 
-3. The main character is Aeneas, a Trojan Warrior, he flees with his father Anchisesm and his son Ascanius.
+3. The main character is Aeneas, a Trojan Warrior, he flees with his father Anchises and his son Ascanius.
 
 4. Aeneas previously appears in the Iliad, where he is nearly killed in battle by Achillius
 
@@ -16,13 +16,13 @@
 
 7. The second half of the *Aeneid* is about Aeneas' wars in Italy, similar to the Iliad
 
-8. Juno is Aeneas' protagonist
+8. Juno is Aeneas' antagonist, and Venus the protagonist
 
 9. Aeneas is married to the daughter of the king of the Latin people.
 
 10. Scholars focus on the Poetic, Ethical, and Policitical aspects of the poem
 
-11. Pietas is another term for Roman Virture
+11. Pietas is another term for Roman Virtue
 
 12. Stoics held the beliefs that they had to harmonize their desires with what was good for everything else
 
