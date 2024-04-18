@@ -6,7 +6,7 @@
 
 Issac Woodard is taken from a bus on the way home from serving in the military and beaten and blinded, the officers are acquitted by an all white jury
 
-## * Brown V. Board
+## ⭐ Brown V. Board
 
 Makes segregation in schools illegal
 
@@ -58,7 +58,7 @@ Private Schools begin to become enclaves for white students, public schools star
 
 School district doesent allow James Meredith to go to school, government allows him, people come with guns to try and kill him, gunfight breaks out, the president sends the military to help.
 
-## * Birmingham Campaign
+## ⭐ Birmingham Campaign
 
 ### Goals in Birmingham
 
@@ -129,3 +129,49 @@ Prohibits the discrimination based on race, color, religion, sex, or national or
 ## Voting Rights Act - 1945
 
 Prohibits discrimination in voting.
+
+## Watts Riot
+
+August, 1965, Watts, Los Angeles. 55 people killed, buildings and cars burned, and shootings from the police occured for nearly a week.
+
+>Tom Bradley wins the mayorship, first black mayor in LA.
+
+## Rodney King
+
+Beaten 56 times after traffic chase, loses an eye and gets a concusion, facial bone damage.
+
+* Caught on tape with a camcorder, shows the people what has been happening
+
+* Officers aquitted, causes **LA Riots of 1992**
+
+### LA Riots - 1992
+
+Series of riots take place after the officers aquitted for beating King, gunfights, looting and fires spread across LA
+
+## Selma to Alabama March
+
+Civil Rights movement peacfully marching towards Montgomery to vote, police stop them on the Edmund Pettus Bridge (named after KKK leader)
+
+* Police beat dozens of people trying to cross the bridge peacefully.
+
+### Voting Rights Act of 1965
+
+Outlaws discriminatory voting practices, including literacy tests and polling discrimination
+
+> MLK goes north to try and help make Civil Rights pushes, no victories
+
+* Martin Luther King assasinated in Memphis, sparks nationwide riots, leads to the **Fair Housing Act**
+
+## Fair Housing Act 1968
+
+Outlaws discrimination in access to housing
+
+## Gates V. Collier - 1974
+
+Missisipi prison with terrible living conditions, running basically a plantation forcing the prisoners to work, determined as illegal by the Supreme Court
+
+## Boston Bussing
+
+Bussing for schools in Boston desegregated, and busses would provide transportation
+
+* leads to riots from people against the policy, damaging busses and violence between races.
