@@ -25,3 +25,9 @@
 12. Dido also escapes from violence happening at home, and leaves to form a new city like Aeneas is currently doing, when she leaves the Kingdom of Tyre controlled by her brother.
 
 13. Aeneas is envious seeing Dido's city of Carthage thriving with people, building houses, walls, and temples, and wishes to create a city like that for the future Romans.
+
+14. [A picture of question 14's sketch](./img/q14.JPG)
+
+15. They were confused in the moment and wanted to blend in in case they face agression from the people of Carthage, but their fears were unfounded as Venus was ensuring their safety from Dido.
+
+16. Venus send cupid disguised as Ascanius to trick Dido into falling in love with Aeneas.
