@@ -15,3 +15,7 @@
 #### Project
 
 [Book1Project.md](./Book1/Book1Project.md)
+
+### Book 3
+
+1. [Book 3 Passage](./Book3/AeneidBook3.md)
