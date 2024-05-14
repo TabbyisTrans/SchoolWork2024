@@ -26,7 +26,7 @@
 
 13. Aeneas is envious seeing Dido's city of Carthage thriving with people, building houses, walls, and temples, and wishes to create a city like that for the future Romans.
 
-14. [A picture of question 14's sketch](./img/q14.JPG)
+14. ![A picture of question 14's sketch](./img/q14.JPG)
 
 15. They were confused in the moment and wanted to blend in in case they face agression from the people of Carthage, but their fears were unfounded as Venus was ensuring their safety from Dido.
 
