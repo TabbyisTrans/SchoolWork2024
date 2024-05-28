@@ -14,7 +14,7 @@ Finally the freedman Anicetus, who hates Agrippina, proposed a crafty plan to th
 
 2. He asked his council how he should kill her
 
-3. Aggripina had immunity to poison supposedly and people would know it was murder
+3. Aggripina had immunity to poison supposedly and people would know it was murder, and with violence, the person may not be trstworthy, and couldnt be assigned as an accident.
 
 4. Anicetus suggests rigging a boat to kill her
 
