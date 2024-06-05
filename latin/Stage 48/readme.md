@@ -9,4 +9,4 @@
 
 ## Vocab
 
-* [Stage 48 Vocab](./Stage 48 Vocab.md)
+* [Stage 48 Vocab](./Stage48Vocab.md)
