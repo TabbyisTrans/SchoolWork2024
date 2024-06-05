@@ -1,18 +1,13 @@
-## Getting Started
+# Password Manager
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+> A simple program that stores password logins in a csv, and lets you add and retrieve via the terminal.
 
-## Folder Structure
+## **WARNING**
 
-The workspace contains two folders by default, where:
+This program is not for use in production, as passwords are stored unencrypted on your device, however, this program is completely issolated in itself from the internet.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Install
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+run the following command to clone [Install.sh](./INSTALL.sh)
+    https://github.com/TabbyisTrans/SchoolWork2024/blob/0b22a308515aec140fbebe1c0febbdd6f0fde492/apcsa/PwManager/INSTALL.sh
+    

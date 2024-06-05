@@ -1,10 +1,11 @@
 #!/bin/bash
 
 # Clone the repository
-git clone https://github.com/your-username/your-repository.git
+
+git clone https://github.com/tabbyistrans/pwmanager.git
 
 # Change directory to the cloned repository
-cd your-repository
+cd PWManager
 
 # Add App.java to the path
 export PATH=$PATH:`pwd`

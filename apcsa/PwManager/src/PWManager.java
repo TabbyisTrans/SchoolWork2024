@@ -4,7 +4,7 @@ import java.io.BufferedWriter;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class App {
+public class PWManager {
     public static void main(String[] args) throws Exception {
         String ANSI_TEAL = "\u001B[36m";
         String ANSI_RESET = "\u001B[0m";
