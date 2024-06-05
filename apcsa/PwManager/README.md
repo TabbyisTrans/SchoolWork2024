@@ -9,5 +9,5 @@ This program is not for use in production, as passwords are stored unencrypted o
 ## Install
 
 run the following command to clone [Install.sh](./INSTALL.sh)
-    https://github.com/TabbyisTrans/SchoolWork2024/blob/0b22a308515aec140fbebe1c0febbdd6f0fde492/apcsa/PwManager/INSTALL.sh
-    
+
+    curl -s https://raw.githubusercontent.com/Tabbyistrans/PWManager/main/INSTALL.sh | bash
