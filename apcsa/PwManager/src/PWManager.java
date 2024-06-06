@@ -1,36 +1,40 @@
 import java.io.File;
+
 import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.util.Scanner;
+
+import javax.print.DocFlavor.STRING;
+
 import java.util.ArrayList;
 
 public class PWManager {
     public static void main(String[] args) throws Exception {
         String ANSI_TEAL = "\u001B[36m";
         String ANSI_RESET = "\u001B[0m";
+        String ANSI_RED = "\u001B[31m";
         ArrayList<Login> logins = new ArrayList<Login>();
         try {
             Scanner input = new Scanner(new File("src/logins.csv"));
             while (input.hasNextLine()) {
                 String[] temp = input.nextLine().split(",");
-                System.out.println(temp[0] + ", " + temp[1] + ", " + temp[2]);
                 logins.add(new Login(temp[0], temp[1], temp[2]));
             }
             input.close();
         } catch (Exception e) {
-            System.out.println("Error reading or parsing logins.csv");
+            System.out.println(ANSI_RED + "Error reading or parsing logins.csv" + ANSI_RESET);
         }
 
         boolean exit = false;
         Scanner scan = new Scanner(System.in);
         while (!exit) {
-            System.out.println("Enter an option:");
-            System.out.println("1. Add a login, 2. Get a login, 3. Exit");
+            System.out.println(ANSI_TEAL + "Enter an option:" + ANSI_RESET);
+            System.out.println(ANSI_TEAL + "1." + ANSI_RESET + " Add a login," + ANSI_TEAL + " 2. " + ANSI_RESET + "Get a login, " + ANSI_TEAL + "3." + ANSI_RESET + " Exit");
             String option = scan.nextLine();
             if (option.equals("1")) {
-                System.out.println("Enter site name:");
+                System.out.println(ANSI_TEAL + "Enter site name:" + ANSI_RESET);
                 String siteName = scan.nextLine();
-                System.out.println("Enter username:");
+                System.out.println(ANSI_TEAL + "Enter username:" + ANSI_RESET);
                 String username = scan.nextLine();
                 System.out.println(ANSI_TEAL +  "Enter password (type random for a random 20 digit password):" + ANSI_RESET);
                 String password = scan.nextLine();
@@ -44,20 +48,22 @@ public class PWManager {
                 writer.close();
                 exit = true;
             } else if (option.equals("2")) {
-                System.out.println("Enter site name:");
+                System.out.println(ANSI_TEAL + "Enter site name:" + ANSI_RESET);
                 String siteName = scan.nextLine();
                 for (int i = 0; i < logins.size(); i++) {
                     if (logins.get(i).getSiteName().equals(siteName)) {
-                        System.out.println("Login for " + logins.get(i).getSiteName());
-                        System.out.println("Username: " + logins.get(i).getUsername());
-                        System.out.println("Password: " + logins.get(i).getPassword());
-                        exit = true;
+                        System.out.println();
+                        System.out.println(ANSI_TEAL + "Login for " + ANSI_RESET + logins.get(i).getSiteName());
+                        System.out.println(ANSI_TEAL + "Username: " + ANSI_RESET + logins.get(i).getUsername());
+                        System.out.println(ANSI_TEAL + "Password: " + ANSI_RESET + logins.get(i).getPassword());
                     }
+                    exit = true;
                 }
             } else if (option.equals("3")) {
                 exit = true;
             } else {
-                System.out.println("Invalid option");
+                System.out.println(ANSI_RED + "Invalid option" + ANSI_RESET);
+                System.out.println();
             }
         }
         scan.close();
